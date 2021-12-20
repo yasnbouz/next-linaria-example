@@ -30,5 +30,9 @@ export default function ToggleButton() {
     classNameDark: themes.dark,
   });
   const nextTheme = darkMode.value ? "Light" : "Dark";
-  return <Toggle onClick={darkMode.toggle}>Switch to {nextTheme}</Toggle>;
+  return (
+    <Toggle suppressHydrationWarning onClick={darkMode.toggle}>
+      Switch to {nextTheme}
+    </Toggle>
+  );
 }

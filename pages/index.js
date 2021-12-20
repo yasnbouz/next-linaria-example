@@ -11,7 +11,6 @@ export default function Home() {
         <title>With Linaria</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main>
         <ToggleButton />
         <Box>
